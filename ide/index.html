@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Jetstreamin IDE</title></head>
+<body>
+  <h1>Jetstreamin IDE</h1>
+  <pre id="configDisplay"></pre>
+  <script>
+    fetch('/api/config').then(res => res.json()).then(cfg => {
+      document.getElementById('configDisplay').textContent = JSON.stringify(cfg, null, 2);
+    });
+  </script>
+</body>
+</html>

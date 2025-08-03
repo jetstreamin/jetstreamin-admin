@@ -1,0 +1,13 @@
+{
+  "name": "Jetstreamin IDE",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "bash scripts/bootstrap.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "bierner.markdown-preview-github-styles"
+      ]
+    }
+  }
+}

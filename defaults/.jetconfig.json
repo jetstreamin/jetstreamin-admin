@@ -1,0 +1,7 @@
+{
+  "agent": "Jetstreamin IDE Agent",
+  "boot": "normal",
+  "mesh": "conical",
+  "neta": true,
+  "atm": true
+}
